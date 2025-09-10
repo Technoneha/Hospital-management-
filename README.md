@@ -24,7 +24,29 @@ This project helps in managing **patients, doctors, visits, and billing records*
 
 ---
 
-## 📂 Project Structure
+## 📌 README.md (ER Diagram Section Add kiya gaya)
+# 🏥 Hospital Management Database
+
+A simple **Hospital Management Database** built using **PostgreSQL**.  
+This project helps in managing **patients, doctors, visits, and billing records** efficiently.
+
+---
+
+## 📖 Features
+- Manage **Patient Records**  
+- Manage **Doctor Details**  
+- Track **Appointments / Visits**  
+- Handle **Billing (Paid, Pending, Partial)**  
+- Triggers for **auto status updates**  
+- Reports for **visits and payments**
+
+---
+
+## 🛠️ Tools Used
+- **PostgreSQL**
+- **pgAdmin**
+- **SQL (DDL, DML, Triggers, Procedures)**
+
 
 hospital-management-database/
 │
@@ -39,8 +61,7 @@ hospital-management-database/
 │ └── Hospital_Management_Database_Report.pdf # Project report
 │
 ├── images/
-│ ├── schema.png # ER diagram / schema screenshot
-│ └── report.png # Sample report screenshot
+│ └── hospital_er_diagram.png # ER Diagram
 │
 └── README.md # Project documentation
 
